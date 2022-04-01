@@ -1,0 +1,150 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color:white;
+    text-align: center;
+    color:black;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+#header{
+    width: 100%;
+    height: 5%;
+    margin-bottom: 10px;
+    background-color: white; 
+
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 5px #ccc;
+}
+
+nav{
+display: flex;
+width:90%;
+margin-left: 10px;
+padding:3px;
+justify-content:space-between;
+align-items: center;
+padding:2px 2px;
+
+background-color: white;
+margin-bottom: 10px;
+}
+nav >.logo_left >img{
+    padding:0px;
+
+
+}
+.search{
+     margin-left: 2px;
+    padding:10px;
+    border:0px;
+    background-color: lightblue;
+}
+
+nav >.navbar_right{
+padding:12px;
+margin-right:0px;
+width:100%;
+height:auto;
+
+}
+.navbar_right li{
+background-color: white;
+margin-right: 0px;
+}
+
+#container{
+  
+    margin:15px;
+    padding:20px;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 5px #ccc;
+   
+}
+.left_pannel{
+    
+    width:15%;
+    height:auto;
+    padding:25px;
+    margin-right: 15px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px #ccc;
+    
+}
+.left_pannel img{
+    border-radius: 50%;
+    
+}
+.activity{
+    height: auto;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px #ccc;
+}
+.middle_pannel {
+    width:60%;
+    height:auto;
+    background-color: white;
+    margin-right: 15px;
+    box-shadow: 4px 4px 5px #ccc;
+    border-radius: 15px;
+}
+.middle_pannel>nav{
+    display: flex;
+justify-content:space-between;
+align-items: center;
+padding:10px 2px;
+box-shadow: 2px 2px 5px #ccc;
+
+}
+.middle_logo{
+    display: flex;
+    padding:0px 0px;
+    justify-content:space-between;
+align-items: center;
+
+}
+.middle_logo img{
+    border-radius: 50%;
+    
+}
+.post{
+    padding:15px;
+    margin-left:0px;
+    
+    border-radius: 20px;
+}
+.middle_logo >.post{
+    margin-left: 0px;
+    margin-right: 60px;
+    
+   
+}
+.news_feed{
+    height: auto;
+    box-shadow: 2px 2px 5px #ccc; 
+    box-sizing: border-box; 
+}
+.right_pannel{
+    width:30%;
+    height:auto;
+    border-radius: 15px;
+    margin-right: 15px;
+    border: 0.5px;
+    box-sizing: border-box;
+   
+    box-shadow: 4px 4px 5px #ccc;
+}
+.right_pannel > li{
+    list-style-type:circle;
+   
+}
+textarea{
+    border: none;
+    box-shadow: 4px 4px 5px #ccc;
+    border-radius: 15px;
+}
